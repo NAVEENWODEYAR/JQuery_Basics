@@ -1,0 +1,7 @@
+Selectors in JQuery.,
+    a. ID Selector 
+        $('#id').click();
+    b. Class Selector
+        $('.class').click();
+    c. Element Selector
+        $('p').click();

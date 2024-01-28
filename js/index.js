@@ -11,4 +11,9 @@ $('h2').click(function(){
     console.log("Register here");
     $('.reg').show();
 })
+$('p').click(function(){
+    console.log("clear the content from the specified element")
+    $('.p').empty();
+    $('a').remove();
+})
 

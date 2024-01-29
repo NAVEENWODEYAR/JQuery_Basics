@@ -8,7 +8,7 @@
 <body>
     <h1>Login Here</h1>
     <div class="frm" aria-autocomplete="none">
-        <form action="https://www.ksrtc.in/oprs-web" method="post" autocomplete="off">
+        <form action="https://www.ksrtc.in/oprs-web" method="post" autocomplete="off" hidden>
             <label for="name">Enter your name</label>
             <input type="text" name="name" id="i1" autocomplete="new-password" required/><br><br>
             
@@ -29,6 +29,7 @@
     $('h1').hide(1000,function(){
         console.log("hide&seek")
         $('.frm').show();
+        $('h1').show();
     });
 </script>
 </html>

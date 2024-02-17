@@ -14,4 +14,10 @@
 *{
   font-size: medium;
   font-display: initial;
+  text-align: justify;
+  font-weight: lighter;
+}
+#h{
+  font-size: xx-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

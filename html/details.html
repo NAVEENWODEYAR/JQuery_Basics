@@ -18,7 +18,7 @@
         <form action="" autocomplete="on">
             Name: <input type="text" id="i1" name="name" autocomplete="new-password"/><br><br>
             Email: <input type="email" id="i4" name="email" autocomplete="new-password"/><br><br>
-            Password: <input type="password" id="i2" name="pwd"/><br><br>
+            Password: <input type="password" id="i2" name="pwd" autocomplete="lsfsda"/><br><br>
             <input type="submit" value="Submit"  id="i3">
         </form>
     </div>
@@ -29,6 +29,7 @@
     jQuery(document).ready(function($){
         $('#i1').attr('autocomplete','off');
         $('#i2').attr('autocomplete','off');
+        $('#i4').attr('autocomplete','off');
         console.log('jQuery executed')
     })
 </script>
